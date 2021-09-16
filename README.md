@@ -16,10 +16,10 @@
 + For classification a pre-tarined ResNet18 is used. **note that the labels are randomly generated**, so you can't get valid results from this dataset. Only see this as a test run.
 
 Image sizes and Models used are as follows:
-![models](img/models.png)
+![models](img/models.PNG)
 
 ## basic deep learning pipline
-![markdown](https://www.mdeditor.cn/images/logos/markdown.png "markdown")
+![pipline](img/pipline.PNG)
 
 ## Metrics
-![markdown](https://www.mdeditor.cn/images/logos/markdown.png "markdown")
+![metrics](img/metrics.PNG)
