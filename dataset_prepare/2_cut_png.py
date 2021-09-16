@@ -83,6 +83,7 @@ if __name__ == '__main__':
     img_ls = glob.glob(os.path.join('..', patches_dir, 'train', 'img', '*.nii'))
     annotations = pd.read_csv(os.path.join('..', patches_dir, 'annotations.csv'), header=0, index_col=0).values
     annotations = dict(zip(annotations[:, 0], annotations[:, 1]))
-
     cut_png()
-
+    
+    img_ls = glob.glob(os.path.join('..', patches_dir, 'test', 'img', '*.nii'))
+    cut_png()
