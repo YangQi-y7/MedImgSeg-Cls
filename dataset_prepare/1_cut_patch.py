@@ -92,7 +92,7 @@ if __name__ == '__main__':
     mask_dir = os.path.join(processed_dir, 'mask')
 
     check_out_dirs(patches_dir)
-    # get_patches(img_dir, mask_dir)
+    get_patches(img_dir, mask_dir)
 
     update_annotation()
 
