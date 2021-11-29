@@ -13,7 +13,7 @@
 
 ## Explore different tasks using different models
 + For segmentation, both 3D and 2D images can be used, using a basic U-net setup.
-+ For classification a pre-tarined ResNet18 is used. **note that the labels are randomly generated**, so you can't get valid results from this dataset. Only see this as a test run.
++ For classification a pre-tarined ResNet18 is used. **note that the labels are randomly generated**, so you can't get valid results from this dataset. Only consider this as a test run.
 
 Image sizes and Models used are as follows:
 ![models](img/models.PNG)
